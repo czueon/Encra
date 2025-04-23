@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encra - 이미지 암호화</title>
+</head>
+<body>
+  <h1>🔐 이미지 암호화</h1>
+  <form action="/encrypt" method="POST" enctype="multipart/form-data">
+    <label>이미지 업로드:</label><br>
+    <input type="file" name="image" required><br><br>
+
+    <label>수신자 이메일 주소:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <button type="submit">암호화하기 (.enc 파일 다운로드)</button>
+  </form>
+
+  <p><a href="/">⬅ 홈으로 돌아가기</a></p>
+</body>
+</html>

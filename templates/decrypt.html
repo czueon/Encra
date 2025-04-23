@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encra - 이미지 복호화</title>
+</head>
+<body>
+  <h1>🔓 이미지 복호화</h1>
+  <form action="/encrypt/decrypt" method="POST" enctype="multipart/form-data">
+    <label>.enc 파일 업로드:</label><br>
+    <input type="file" name="encfile" required><br><br>
+
+    <label>이메일 주소:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <button type="submit">복호화하기</button>
+  </form>
+
+  <p><a href="/">⬅ 홈으로 돌아가기</a></p>
+</body>
+</html>

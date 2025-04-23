@@ -1,0 +1,7 @@
+Charm-Crypto==0.50
+Cython==3.0.12
+Flask==3.0.3
+gmpy2==2.2.1
+pycryptodome==3.20.0
+pytest==8.3.5
+python-dotenv==1.0.1
